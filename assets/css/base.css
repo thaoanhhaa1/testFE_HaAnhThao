@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --while-color: rgba(255, 255, 255, 1);
+    --black-color: rgba(0, 0, 0, 1);
+    --primary-text-color: rgba(58, 58, 58, 1);
+    --secondary-text-color: rgba(137, 137, 137, 1);
+    --third-text-color: rgba(176, 176, 176, 1);
+    --placeholder-color: rgba(97, 97, 97, 1);
+    --bg-product-info-color: rgba(244, 245, 247, 1);
+    --discount-color: rgba(233, 113, 113, 1);
+    --new-color: rgba(46, 193, 172, 1);
+    --primary-color: rgba(232, 159, 113, 1);
+    --secondary-color: rgba(249, 241, 231, 1);
+    --third-color: rgba(252, 248, 243, 1);
+
+    --header-height: 9.9rem;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ Thin.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ XLight.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ Light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ SemiBold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ Bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ Heavy.otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/SVN-Gilroy\ Black.otf');
+    font-weight: 900;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+input {
+    font-family: 'Gilroy', sans-serif;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.902rem;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+
+.icon::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 4rem;
+    height: 4rem;
+}
+
+.icon-btn .icon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.container {
+    max-width: 1339px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}

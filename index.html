@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XTECH789</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/stye.css">
+    <script src="./assets/js/data.js"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="header__wrapper">
+                <!-- Begin Logo -->
+                <div class="logo">
+                    <a href="/">
+                        Funiro.
+                    </a>
+                </div>
+                <!-- End Logo -->
+
+                <!-- Begin Navigation -->
+                <nav>
+                    <ul class="navigation-list">
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="/products">
+                                Products
+                                <i class="icon fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation-link" href="/rooms">
+                                Rooms
+                                <i class="icon fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation-link" href="/inspirations">Inspirations</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Navigation -->
+
+                <!-- Begin Search -->
+                <div class="search__wrapper">
+                    <label class="search">
+                        <i class="icon fas fa-search"></i>
+                        <input placeholder="Search for minimalist chair" type="text" class="search__input">
+                    </label>
+                </div>
+                <!-- End Search -->
+
+                <!-- Begin User -->
+                <div class="user">
+                    <div class="user__actions">
+                        <a href="/favorite" class="icon-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.9996 21.054C-8 9.99991 5.99999 -2.00009 11.9996 5.58797C18 -2.00009 32 9.99991 11.9996 21.054Z"
+                                    stroke="#262F56" stroke-width="1.8" />
+                            </svg>
+                        </a>
+                        <a href="/cart" class="icon-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1 2.5H2.65424C3.13263 2.5 3.37183 2.5 3.56628 2.58674C3.73771 2.66321 3.88415 2.78638 3.98886 2.94217C4.10763 3.11888 4.14862 3.35454 4.23058 3.82585L4.6087 6M4.6087 6L5.49173 11.0774C5.67091 12.1077 5.7605 12.6228 6.02583 12.9939C6.25945 13.3207 6.58606 13.5695 6.96311 13.708C7.39133 13.8654 7.91176 13.815 8.95264 13.7143L18.614 12.7793C19.6298 12.681 20.1378 12.6318 20.5221 12.4033C20.8653 12.1993 21.1395 11.8972 21.3095 11.536C21.5 11.1314 21.5 10.6211 21.5 9.6005V9.6005C21.5 8.51582 21.5 7.97348 21.2922 7.55394C21.1068 7.17971 20.809 6.8729 20.4404 6.67654C20.0272 6.4564 19.4851 6.44036 18.4009 6.40826L4.6087 6Z"
+                                    stroke="#262F56" stroke-width="1.8" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <circle cx="8.5" cy="19" r="2" stroke="#262F56" stroke-width="1.8" />
+                                <circle cx="18" cy="19" r="2" stroke="#262F56" stroke-width="1.8" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="user__profile">
+                        <img class="avatar" src="./assets/images/avatar.png" alt="User avatar">
+                    </div>
+                </div>
+                <!-- End User -->
+            </div>
+        </header>
+
+        <!-- Start Slider -->
+        <div class="slider__wrapper">
+            <div class="slider">
+                <div class="slider__item">
+                    <div class="slider__item__wrapper">
+                        <div class="slider__item--wrapper slider__item__info">
+                            <h2>High-Quality Furniture Just For You</h2>
+                            <p>Our furniture is made from selected and best quality materials that are suitable for
+                                your
+                                dream home</p>
+                            <a href="/products">Shop Now</a>
+                        </div>
+                        <div class="slider__item--wrapper slider__item__detail">
+                            <h4>Bohauss</h4>
+                            <p>Luxury big sofa 2-seat</p>
+                            <span>Rp 17.000.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__dot">
+                    <span class="slider__dot__item slider__dot__item--active"></span>
+                    <span class="slider__dot__item"></span>
+                    <span class="slider__dot__item"></span>
+                    <span class="slider__dot__item"></span>
+                </div>
+
+                <button class="slider__btn slider__btn--prev slider__btn--disabled">
+                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.9999 5.07227L7.99994 11.6407L14.9999 18.2091" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button class="slider__btn slider__btn--next">
+                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.00006 4.9519L16.0001 11.5203L9.00006 18.0887" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- End Slider -->
+
+        <section class="container">
+
+            <!-- Start Feature -->
+            <div class="feature__list">
+                <div class="feature__item">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M32.903 2.34375C32.0495 2.34375 31.2494 2.57414 30.5593 2.97437V1.17188C30.5593 0.524687 30.0346 0 29.3874 0H10.6374C9.99016 0 9.46547 0.524687 9.46547 1.17188V2.98867C8.76992 2.57953 7.96063 2.34375 7.09695 2.34375C4.51227 2.34375 2.40945 4.44656 2.40945 7.03125C2.40945 9.00273 2.99367 10.9077 4.09891 12.5402C5.98047 15.3193 8.3007 16.0405 10.2206 16.8084C11.3277 19.5653 13.5663 21.7502 16.3589 22.7846L15.4948 28.2812H15.3249C13.3864 28.2812 11.8093 29.8584 11.8093 31.7969V37.6562H10.6374C9.99023 37.6562 9.46555 38.1809 9.46555 38.8281C9.46555 39.4753 9.99023 40 10.6374 40H29.3874C30.0346 40 30.5593 39.4753 30.5593 38.8281C30.5593 38.1809 30.0346 37.6562 29.3874 37.6562H28.2155V31.7969C28.2155 29.8584 26.6384 28.2812 24.6999 28.2812H24.5301L23.666 22.7847C26.4627 21.7487 28.7038 19.5591 29.8092 16.7966C31.6229 16.0711 34.0003 15.3478 35.9012 12.5402C37.0064 10.9077 37.5906 9.00266 37.5906 7.03125C37.5905 4.44656 35.4877 2.34375 32.903 2.34375ZM9.4568 13.9787C6.59945 12.8357 4.7532 10.1087 4.7532 7.03125C4.7532 5.73891 5.80461 4.6875 7.09695 4.6875C8.3893 4.6875 9.4407 5.73891 9.4407 7.03125C9.4407 7.11367 9.44938 7.19398 9.46555 7.27156V12.8906C9.46555 13.2673 9.48578 13.6392 9.52453 14.0058L9.4568 13.9787ZM25.8718 37.6562H14.153V35.3125H25.8718V37.6562ZM24.6999 30.625C25.3461 30.625 25.8718 31.1507 25.8718 31.7969V32.9688H14.153V31.7969C14.153 31.1507 14.6788 30.625 15.3249 30.625C15.9607 30.625 23.2089 30.625 24.6999 30.625ZM17.8673 28.2812L18.6427 23.3487C19.0912 23.4071 19.5483 23.4375 20.0124 23.4375C20.4766 23.4375 20.9337 23.407 21.3821 23.3487L22.1576 28.2812H17.8673ZM28.2155 12.8906C28.2155 17.4138 24.5356 21.0938 20.0124 21.0938C15.4892 21.0938 11.8093 17.4138 11.8093 12.8906V7.03125H28.2155V12.8906ZM28.2155 4.6875H11.8093V2.34375H28.2155V4.6875ZM30.5431 13.9787L30.5015 13.9953C30.5395 13.6322 30.5592 13.2637 30.5592 12.8906V7.03125C30.5593 5.73891 31.6107 4.6875 32.903 4.6875C34.1954 4.6875 35.2468 5.73891 35.2468 7.03125C35.2468 10.1087 33.4005 12.8358 30.5431 13.9787Z"
+                            fill="#3A3A3A" />
+                    </svg>
+                    <div class="feature__item__info">
+                        <h6>High Quality</h6>
+                        <span>crafted from top materials</span>
+                    </div>
+                </div>
+                <div class="feature__item">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M32.903 2.34375C32.0495 2.34375 31.2494 2.57414 30.5593 2.97437V1.17188C30.5593 0.524687 30.0346 0 29.3874 0H10.6374C9.99016 0 9.46547 0.524687 9.46547 1.17188V2.98867C8.76992 2.57953 7.96063 2.34375 7.09695 2.34375C4.51227 2.34375 2.40945 4.44656 2.40945 7.03125C2.40945 9.00273 2.99367 10.9077 4.09891 12.5402C5.98047 15.3193 8.3007 16.0405 10.2206 16.8084C11.3277 19.5653 13.5663 21.7502 16.3589 22.7846L15.4948 28.2812H15.3249C13.3864 28.2812 11.8093 29.8584 11.8093 31.7969V37.6562H10.6374C9.99023 37.6562 9.46555 38.1809 9.46555 38.8281C9.46555 39.4753 9.99023 40 10.6374 40H29.3874C30.0346 40 30.5593 39.4753 30.5593 38.8281C30.5593 38.1809 30.0346 37.6562 29.3874 37.6562H28.2155V31.7969C28.2155 29.8584 26.6384 28.2812 24.6999 28.2812H24.5301L23.666 22.7847C26.4627 21.7487 28.7038 19.5591 29.8092 16.7966C31.6229 16.0711 34.0003 15.3478 35.9012 12.5402C37.0064 10.9077 37.5906 9.00266 37.5906 7.03125C37.5905 4.44656 35.4877 2.34375 32.903 2.34375ZM9.4568 13.9787C6.59945 12.8357 4.7532 10.1087 4.7532 7.03125C4.7532 5.73891 5.80461 4.6875 7.09695 4.6875C8.3893 4.6875 9.4407 5.73891 9.4407 7.03125C9.4407 7.11367 9.44938 7.19398 9.46555 7.27156V12.8906C9.46555 13.2673 9.48578 13.6392 9.52453 14.0058L9.4568 13.9787ZM25.8718 37.6562H14.153V35.3125H25.8718V37.6562ZM24.6999 30.625C25.3461 30.625 25.8718 31.1507 25.8718 31.7969V32.9688H14.153V31.7969C14.153 31.1507 14.6788 30.625 15.3249 30.625C15.9607 30.625 23.2089 30.625 24.6999 30.625ZM17.8673 28.2812L18.6427 23.3487C19.0912 23.4071 19.5483 23.4375 20.0124 23.4375C20.4766 23.4375 20.9337 23.407 21.3821 23.3487L22.1576 28.2812H17.8673ZM28.2155 12.8906C28.2155 17.4138 24.5356 21.0938 20.0124 21.0938C15.4892 21.0938 11.8093 17.4138 11.8093 12.8906V7.03125H28.2155V12.8906ZM28.2155 4.6875H11.8093V2.34375H28.2155V4.6875ZM30.5431 13.9787L30.5015 13.9953C30.5395 13.6322 30.5592 13.2637 30.5592 12.8906V7.03125C30.5593 5.73891 31.6107 4.6875 32.903 4.6875C34.1954 4.6875 35.2468 5.73891 35.2468 7.03125C35.2468 10.1087 33.4005 12.8358 30.5431 13.9787Z"
+                            fill="#3A3A3A" />
+                    </svg>
+                    <div class="feature__item__info">
+                        <h6>Warrany Protection</h6>
+                        <span>Over 2 years</span>
+                    </div>
+                </div>
+                <div class="feature__item">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M32.903 2.34375C32.0495 2.34375 31.2494 2.57414 30.5593 2.97437V1.17188C30.5593 0.524687 30.0346 0 29.3874 0H10.6374C9.99016 0 9.46547 0.524687 9.46547 1.17188V2.98867C8.76992 2.57953 7.96063 2.34375 7.09695 2.34375C4.51227 2.34375 2.40945 4.44656 2.40945 7.03125C2.40945 9.00273 2.99367 10.9077 4.09891 12.5402C5.98047 15.3193 8.3007 16.0405 10.2206 16.8084C11.3277 19.5653 13.5663 21.7502 16.3589 22.7846L15.4948 28.2812H15.3249C13.3864 28.2812 11.8093 29.8584 11.8093 31.7969V37.6562H10.6374C9.99023 37.6562 9.46555 38.1809 9.46555 38.8281C9.46555 39.4753 9.99023 40 10.6374 40H29.3874C30.0346 40 30.5593 39.4753 30.5593 38.8281C30.5593 38.1809 30.0346 37.6562 29.3874 37.6562H28.2155V31.7969C28.2155 29.8584 26.6384 28.2812 24.6999 28.2812H24.5301L23.666 22.7847C26.4627 21.7487 28.7038 19.5591 29.8092 16.7966C31.6229 16.0711 34.0003 15.3478 35.9012 12.5402C37.0064 10.9077 37.5906 9.00266 37.5906 7.03125C37.5905 4.44656 35.4877 2.34375 32.903 2.34375ZM9.4568 13.9787C6.59945 12.8357 4.7532 10.1087 4.7532 7.03125C4.7532 5.73891 5.80461 4.6875 7.09695 4.6875C8.3893 4.6875 9.4407 5.73891 9.4407 7.03125C9.4407 7.11367 9.44938 7.19398 9.46555 7.27156V12.8906C9.46555 13.2673 9.48578 13.6392 9.52453 14.0058L9.4568 13.9787ZM25.8718 37.6562H14.153V35.3125H25.8718V37.6562ZM24.6999 30.625C25.3461 30.625 25.8718 31.1507 25.8718 31.7969V32.9688H14.153V31.7969C14.153 31.1507 14.6788 30.625 15.3249 30.625C15.9607 30.625 23.2089 30.625 24.6999 30.625ZM17.8673 28.2812L18.6427 23.3487C19.0912 23.4071 19.5483 23.4375 20.0124 23.4375C20.4766 23.4375 20.9337 23.407 21.3821 23.3487L22.1576 28.2812H17.8673ZM28.2155 12.8906C28.2155 17.4138 24.5356 21.0938 20.0124 21.0938C15.4892 21.0938 11.8093 17.4138 11.8093 12.8906V7.03125H28.2155V12.8906ZM28.2155 4.6875H11.8093V2.34375H28.2155V4.6875ZM30.5431 13.9787L30.5015 13.9953C30.5395 13.6322 30.5592 13.2637 30.5592 12.8906V7.03125C30.5593 5.73891 31.6107 4.6875 32.903 4.6875C34.1954 4.6875 35.2468 5.73891 35.2468 7.03125C35.2468 10.1087 33.4005 12.8358 30.5431 13.9787Z"
+                            fill="#3A3A3A" />
+                    </svg>
+                    <div class="feature__item__info">
+                        <h6>Free Shipping</h6>
+                        <span>Order over 150 $</span>
+                    </div>
+                </div>
+                <div class="feature__item">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M32.903 2.34375C32.0495 2.34375 31.2494 2.57414 30.5593 2.97437V1.17188C30.5593 0.524687 30.0346 0 29.3874 0H10.6374C9.99016 0 9.46547 0.524687 9.46547 1.17188V2.98867C8.76992 2.57953 7.96063 2.34375 7.09695 2.34375C4.51227 2.34375 2.40945 4.44656 2.40945 7.03125C2.40945 9.00273 2.99367 10.9077 4.09891 12.5402C5.98047 15.3193 8.3007 16.0405 10.2206 16.8084C11.3277 19.5653 13.5663 21.7502 16.3589 22.7846L15.4948 28.2812H15.3249C13.3864 28.2812 11.8093 29.8584 11.8093 31.7969V37.6562H10.6374C9.99023 37.6562 9.46555 38.1809 9.46555 38.8281C9.46555 39.4753 9.99023 40 10.6374 40H29.3874C30.0346 40 30.5593 39.4753 30.5593 38.8281C30.5593 38.1809 30.0346 37.6562 29.3874 37.6562H28.2155V31.7969C28.2155 29.8584 26.6384 28.2812 24.6999 28.2812H24.5301L23.666 22.7847C26.4627 21.7487 28.7038 19.5591 29.8092 16.7966C31.6229 16.0711 34.0003 15.3478 35.9012 12.5402C37.0064 10.9077 37.5906 9.00266 37.5906 7.03125C37.5905 4.44656 35.4877 2.34375 32.903 2.34375ZM9.4568 13.9787C6.59945 12.8357 4.7532 10.1087 4.7532 7.03125C4.7532 5.73891 5.80461 4.6875 7.09695 4.6875C8.3893 4.6875 9.4407 5.73891 9.4407 7.03125C9.4407 7.11367 9.44938 7.19398 9.46555 7.27156V12.8906C9.46555 13.2673 9.48578 13.6392 9.52453 14.0058L9.4568 13.9787ZM25.8718 37.6562H14.153V35.3125H25.8718V37.6562ZM24.6999 30.625C25.3461 30.625 25.8718 31.1507 25.8718 31.7969V32.9688H14.153V31.7969C14.153 31.1507 14.6788 30.625 15.3249 30.625C15.9607 30.625 23.2089 30.625 24.6999 30.625ZM17.8673 28.2812L18.6427 23.3487C19.0912 23.4071 19.5483 23.4375 20.0124 23.4375C20.4766 23.4375 20.9337 23.407 21.3821 23.3487L22.1576 28.2812H17.8673ZM28.2155 12.8906C28.2155 17.4138 24.5356 21.0938 20.0124 21.0938C15.4892 21.0938 11.8093 17.4138 11.8093 12.8906V7.03125H28.2155V12.8906ZM28.2155 4.6875H11.8093V2.34375H28.2155V4.6875ZM30.5431 13.9787L30.5015 13.9953C30.5395 13.6322 30.5592 13.2637 30.5592 12.8906V7.03125C30.5593 5.73891 31.6107 4.6875 32.903 4.6875C34.1954 4.6875 35.2468 5.73891 35.2468 7.03125C35.2468 10.1087 33.4005 12.8358 30.5431 13.9787Z"
+                            fill="#3A3A3A" />
+                    </svg>
+                    <div class="feature__item__info">
+                        <h6>24 / 7 Support</h6>
+                        <span>Dedicated support</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Feature -->
+
+            <!-- Start Products -->
+            <div class="products__wrapper">
+                <h3 class="products__title">Our Products</h3>
+
+                <div class="products">
+                </div>
+
+                <div class="products__action">
+                    <button>Show More</button>
+                </div>
+            </div>
+            <!-- End Products -->
+        </section>
+
+        <!-- Start Inspirations -->
+        <div class="inspirations">
+            <div class="container">
+                <div class="inspiration">
+                    <div class="inspirations__info">
+                        <h3>50+ Beautiful rooms inspiration</h3>
+                        <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                        <button>Explore More</button>
+                    </div>
+                    <div class="inspirations__img">
+                        <div class="inspirations__img__detail">
+                            <div class="inspirations__img__detail__info">
+                                <div class="inspirations__img__detail__info__header">
+                                    <span>01</span>
+                                    <span></span>
+                                    <span>Bed Room</span>
+                                </div>
+                                <div class="inspirations__img__detail__info__title">
+                                    Inner Peace
+                                </div>
+                            </div>
+                            <button>
+                                <svg width="30" height="24" viewBox="0 0 30 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.5446 12H4.15842M25.5446 12L18.4158 6M25.5446 12L18.4158 18"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Inspirations -->
+
+        <!-- Start Tips & Tricks -->
+        <div class="container">
+            <div class="tips">
+                <h3 class="text-center">Tips & Tricks</h3>
+
+                <div class="tips__list">
+                    <div class="tips__wrapper">
+                        <div class="tip">
+                            <div class="tip__img"></div>
+                            <div class="tip__info">
+                                <h6>How to create a living room to love</h6>
+                                <span>20 jan 2020</span>
+                            </div>
+                        </div>
+                        <div class="tip">
+                            <div class="tip__img"></div>
+                            <div class="tip__info">
+                                <h6>How to create a living room to love</h6>
+                                <span>20 jan 2020</span>
+                            </div>
+                        </div>
+                        <div class="tip">
+                            <div class="tip__img"></div>
+                            <div class="tip__info">
+                                <h6>How to create a living room to love</h6>
+                                <span>20 jan 2020</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__dot">
+                        <span class="slider__dot__item slider__dot__item--active"></span>
+                        <span class="slider__dot__item"></span>
+                        <span class="slider__dot__item"></span>
+                    </div>
+
+                    <button class="slider__btn slider__btn--prev">
+                        <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.9999 5.07227L7.99994 11.6407L14.9999 18.2091" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="slider__btn slider__btn--next">
+                        <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00006 4.9519L16.0001 11.5203L9.00006 18.0887" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End Tips & Tricks -->
+
+        <!-- Start Gallery -->
+        <div class="gallery">
+            <div class="gallery__header text-center">
+                <span>Share your setup with</span>
+                <h3>#FuniroFurniture</h3>
+            </div>
+            <div class="gallery__grid">
+                <div class="gallery__col">
+                    <div class="gallery__row">
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-1.png" alt="" class="gallery__img">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-2.png" alt="" class="gallery__img">
+                        </div>
+                    </div>
+                    <div class="gallery__row">
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-3.png" alt="" class="gallery__img">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-4.png" alt="" class="gallery__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__col">
+                    <div class="gallery__row">
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-5.png" alt="" class="gallery__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__col">
+                    <div class="gallery__row">
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-6.png" alt="" class="gallery__img">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-7.png" alt="" class="gallery__img">
+                        </div>
+                    </div>
+                    <div class="gallery__row">
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-8.png" alt="" class="gallery__img">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="./assets/images/gallery-9.png" alt="" class="gallery__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Gallery -->
+
+        <!-- Start Footer -->
+        <div class="container">
+            <footer>
+                <div class="footer__cols">
+                    <div class="footer__col">
+                        <h5>Funiro.</h5>
+                        <div class="footer__col__list">
+                            <span class="footer__col__item">Worldwide furniture store since 2020. We sell over
+                                1000+ branded products on our website</span>
+                            <span class="footer__col__item">Sawojajar Malang, Indonesia</span>
+                            <span class="footer__col__item">+6289 456 3455</span>
+                            <span class="footer__col__item">www.funiro.com</span>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <h5>Menu</h5>
+                        <div class="footer__col__list">
+                            <a class="footer__col__item" href="#">Products</a>
+                            <a class="footer__col__item" href="#">Rooms</a>
+                            <a class="footer__col__item" href="#">Inspirations</a>
+                            <a class="footer__col__item" href="#">About Us</a>
+                            <a class="footer__col__item" href="#">Terms & Policy</a>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <h5>Account</h5>
+                        <div class="footer__col__list">
+                            <a class="footer__col__item" href="#">My Account</a>
+                            <a class="footer__col__item" href="#">Checkout</a>
+                            <a class="footer__col__item" href="#">My Cart</a>
+                            <a class="footer__col__item" href="#">My catalog</a>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <h5>Stay Connected</h5>
+                        <div class="footer__col__list">
+                            <a class="footer__col__item" href="#">Facebook</a>
+                            <a class="footer__col__item" href="#">Instagram</a>
+                            <a class="footer__col__item" href="#">Twitter</a>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <h5>Stay Updated</h5>
+                        <div class="contact">
+                            <input type="text" placeholder="Enter your email">
+                            <button>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.7825 3.21745C20.6813 3.1167 20.5534 3.04695 20.4139 3.01639C20.2744 2.98584 20.1291 2.99574 19.995 3.04495L3.495 9.04495C3.3527 9.09892 3.23019 9.19491 3.14374 9.32016C3.05729 9.44542 3.01099 9.59401 3.01099 9.7462C3.01099 9.89839 3.05729 10.047 3.14374 10.1722C3.23019 10.2975 3.3527 10.3935 3.495 10.4474L9.9375 13.0199L14.6925 8.24995L15.75 9.30745L10.9725 14.0849L13.5525 20.5275C13.6081 20.667 13.7043 20.7866 13.8286 20.8709C13.953 20.9551 14.0998 21.0001 14.25 20.9999C14.4016 20.9968 14.5486 20.9479 14.6718 20.8595C14.795 20.7711 14.8885 20.6475 14.94 20.5049L20.94 4.00495C20.9911 3.87226 21.0034 3.72777 20.9755 3.58834C20.9477 3.44891 20.8807 3.32028 20.7825 3.21745Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- End Footer -->
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
